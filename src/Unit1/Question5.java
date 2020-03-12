@@ -1,3 +1,4 @@
+package Unit1;
 
 public class Question5 {
 	/*
@@ -15,7 +16,7 @@ public class Question5 {
 		System.out.print("Incorrect Implementation Output: ");
 		System.out.println(product);
 		
-		double fact3 = (double) 1 / 2; //typecast shown
+		double fact3 = (double) 1 / (double) 2; //typecast to force decimal point division
 		double fact4 = 3 * 4;
 		double product2 = fact3 * fact4;
 		System.out.print("Correct Implementation Output: ");
